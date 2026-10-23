@@ -32,10 +32,10 @@ These dotfiles are made with love, for sure.
 | Programs   | Using             |
 | ---------- | ----------------- |
 | WM         | awesome           |
-| OS         | Termux        |
-| Terminal   | alacritty         |
+| OS         | Termux            |
+| Terminal   | xfce4-terminal    |
 | Shell      | zsh               |
-| Editor     | neovim / vscode   |
+| Editor     | neovim            |
 | Compositor | picom             |
 | Launcher   | rofi              |
 
