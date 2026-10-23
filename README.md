@@ -17,9 +17,9 @@
 
 Welcome to my AwesomeWM configuration files! 
 
-so yeah now i'm using awesomewm, looks like i'll be use this wm forever.
+This is the vertical Rxyhn setup, which has been discontinued; I simply adapted it for Termux. 
 
-Because only this wm can satisfy me.
+Give it a try and enjoy!
 
 Fyi, I use night colorscheme, and it's so beautiful.
 
