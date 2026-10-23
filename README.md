@@ -32,7 +32,7 @@ These dotfiles are made with love, for sure.
 | Programs   | Using             |
 | ---------- | ----------------- |
 | WM         | awesome           |
-| OS         | arch linux        |
+| OS         | Termux        |
 | Terminal   | alacritty         |
 | Shell      | zsh               |
 | Editor     | neovim / vscode   |
