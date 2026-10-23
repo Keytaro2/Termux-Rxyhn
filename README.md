@@ -149,7 +149,7 @@ These dotfiles are made with love, for sure.
 
          <summary>Preview</summary>
          <div align="left">
-         <img src="assets/lockscreen.png" width="500px" alt="word clock lockscreen preview">
+         <img src="https://github.com/user-attachments/assets/42ae18ee-4465-451b-93fd-ea0b9ecb328f" width="500px" alt="word clock lockscreen preview">
          </div>
          </details>
    + Notification Center
