@@ -139,7 +139,7 @@ These dotfiles are made with love, for sure.
          *this is so aesthetic isn't it?*
 
          <div align="left">
-         <img src="assets/ncmpcpp.png" width="500px" alt="ncmpcpp preview">
+         <img src="https://github.com/user-attachments/assets/6dd9d76a-f862-4cd5-9d58-88b2b04db447" width="500px" alt="ncmpcpp preview">
          </div>
          </details>
    + `Word Clock Lockscreen` with PAM Integration
