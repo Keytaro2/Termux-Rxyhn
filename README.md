@@ -13,7 +13,7 @@
 <br>
 
 <a href="https://awesomewm.org/"><img alt="AwesomeWM Logo" height="160" align = "left" src="https://awesomewm.org/doc/api/images/AUTOGEN_wibox_logo_logo_and_name.svg"></a>
-<b>  Aesthetic AwesomeWM Dotfiles  </b>
+<b>  Aesthetic AwesomeWM Dotfiles for Termux  </b>
 
 Welcome to my AwesomeWM configuration files! 
 
