@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-    <img src="assets/awesome.png" alt="Rice Preview">
+    <img src="https://github.com/user-attachments/assets/070a1bc2-ac43-4ef3-94b1-36fb3fe0f38a" alt="Rice Preview">
 </div>
 
 <br>
