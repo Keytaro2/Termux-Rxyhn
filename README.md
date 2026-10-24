@@ -89,8 +89,8 @@ These dotfiles are made with love, for sure.
       > Clone this repository
 
       ```shell
-      git clone https://github.com/rxyhn/dotfiles.git
-      cd dotfiles
+      git clone https://github.com/Keytaro2/Termux-Rxyhn.git
+      cd Termux-Rxyhn
       ```
 
       > Copy config and binaries files
