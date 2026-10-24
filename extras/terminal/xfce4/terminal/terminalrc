@@ -1,0 +1,25 @@
+[Configuration]
+FontName=FiraCode Nerd Font 14
+FontUseSystem=FALSE
+ColorForegroundUseDefault=FALSE
+ColorBackgroundUseDefault=FALSE
+ColorCursorUseDefault=FALSE
+ColorSelectionUseDefault=FALSE
+ColorBoldUseDefault=TRUE
+ColorBoldIsBright=FALSE
+ColorScheme=Aesthetic Night
+ColorForeground=#d9d7d6
+ColorBackground=#061115
+ColorCursor=#d9d7d6
+ColorSelection=#061115
+ColorSelectionBackground=#6791c9
+ColorPalette=#1c252c;#df5b61;#78b892;#de8f78;#6791c9;#bc83e3;#67afc1;#d9d7d6;#484e5b;#f16269;#8cd7aa;#e9967e;#79aaeb;#c488ec;#7acfe4;#e5e5e5
+TabActivityColor=#df5b61
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_UNDERLINE
+MiscCursorBlinks=TRUE
+MiscAlwaysShowTabs=FALSE
+MiscTabPosition=GTK_POS_BOTTOM
+MiscMenubarDefault=FALSE
+MiscToolbarDefault=FALSE
+MiscBordersDefault=FALSE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE

@@ -1,0 +1,27 @@
+/* rxyhn-terminal: rxyhn's terminal in xfce4-terminal */
+/* window_padding = 25 from his wezterm.lua; if it feels cramped, lower this value */
+vte-terminal, VteTerminal {
+    padding: 25px 25px 25px 25px;
+}
+
+/* xfce4-terminal tabs (at the bottom, only if there are 2+), colors from his wezterm.lua */
+XfceTerminalWindow notebook > header {
+    background-color: #000a0e;
+    border: none;
+    box-shadow: none;
+}
+XfceTerminalWindow notebook > header > tabs > tab {
+    background-color: #000a0e;
+    color: #484e5b;
+    border: none;
+    box-shadow: none;
+}
+XfceTerminalWindow notebook > header > tabs > tab:checked {
+    background-color: #061115;
+    color: #484e5b;
+    font-style: italic;
+}
+XfceTerminalWindow notebook > header > tabs > tab:hover {
+    background-color: #1c252c;
+    color: #061115;
+}

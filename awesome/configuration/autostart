@@ -1,0 +1,35 @@
+#!/bin/sh
+# Autostart for Termux. Each program launches ONLY if it's installed and not
+# already running, so no need to edit anything if you're missing one.
+
+have() { command -v "$1" >/dev/null 2>&1; }
+
+start() {
+  have "$1" || return 0
+  pgrep -x "$(basename "$1")" >/dev/null 2>&1 || "$@" >/dev/null 2>&1 &
+}
+
+# X colors (the theme reads them w/ xrdb)
+have xrdb && [ -f "$HOME/.Xresources" ] && xrdb -merge "$HOME/.Xresources"
+
+# audio: PulseAudio for volume / sliders (pkg install pulseaudio)
+if have pulseaudio && ! pulseaudio --check 2>/dev/null; then
+  pulseaudio --start --exit-idle-time=-1 >/dev/null 2>&1
+fi
+
+# music: MPD (Music widget + media keys via mpc)
+start mpd
+
+# compositor: OFF by default (on Termux:X11 it makes the mouse lag).
+# The powermenu already blurs on its own, no picom needed. If you want shadows / rounded
+# corners on windows:  touch ~/.config/awesome/use-picom
+if [ ! -e "$HOME/.config/awesome/use-picom" ]; then
+  pgrep -x picom >/dev/null 2>&1 && pkill -x picom
+elif have picom && ! pgrep -x picom >/dev/null 2>&1; then
+  PICOM_CONF="$HOME/.config/awesome/theme/picom.conf"
+  if picom --help 2>&1 | grep -q -- '--experimental-backends'; then
+    picom --experimental-backends --config "$PICOM_CONF" >/dev/null 2>&1 &
+  else
+    picom --config "$PICOM_CONF" >/dev/null 2>&1 &
+  fi
+fi

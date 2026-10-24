@@ -1,0 +1,10 @@
+
+! --- Termux:X11 ---------------------------------------------------------
+! UI scale (widgets, icons and letters). 96 = original size.
+! Redmi Note 10 5G (2400x1080, ~405 ppi): 120 is 'a bit bigger';
+! try 144, 168 or 192 if you want everything bigger.
+Xft.dpi: 120
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.hintstyle: hintfull
