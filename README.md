@@ -53,7 +53,7 @@ These dotfiles are made with love, for sure.
          ```
 
    
-   3. Install my AwesomeWM configuration files
+   3. Install AwesomeWM configuration Rxyhn files
 
       > Clone this repository
 
