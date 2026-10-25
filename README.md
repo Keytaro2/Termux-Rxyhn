@@ -132,25 +132,29 @@ also with <kbd>alt, shift, and ctrl</kbd>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
-| <kbd>ctrl + enter</kbd>                | Spawn terminal                                            |
-| <kbd>super + w</kbd>                    | Spawn web browser                                         |
-| <kbd>super + x</kbd>                    | Spawn color picker                                        |
-| <kbd>ctrl + f</kbd>                    | Spawn file manager                                        |
-| <kbd>ctrl + d</kbd>                    | Launch applications launcher                              |
-| <kbd>super + shift + d</kbd>            | Toggle dashboard                                          |
-| <kbd>super + q</kbd>                    | Close client                                              |
-| <kbd>super + ctrl + l</kbd>             | Toggle lock screen                                        |
-| <kbd>super + [1-0]</kbd>                | View tag AKA change workspace (for you i3/bsp folks)      |
-| <kbd>super + shift + [1-0]</kbd>        | Move focused client to tag                                |
-| <kbd>super + space</kbd>                | Select next layout                                        |
-| <kbd>super + s</kbd>                    | Set tiling layout                                         |
-| <kbd>super + shift + s</kbd>            | Set floating layout                                       |
-| <kbd>super + c</kbd>                    | Center floating client                                    |
-| <kbd>super + [arrow keys]</kbd>         | Change focus by direction                                 |
-| <kbd>super + shift + f</kbd>            | Toggle fullscreen                                         |
-| <kbd>super + m</kbd>                    | Toggle maximize                                           |
-| <kbd>super + n</kbd>                    | Minimize                                                  |
-| <kbd>ctrl + shift + n</kbd>             | Restore minimized                                         |
+| <kbd>ctrl + enter</kbd>                 | Spawn terminal                                            |
+| <kbd>ctrl + w</kbd>                     | Spawn web browser                                         |
+| <kbd>ctrl + x</kbd>                     | Spawn color picker                                        |
+| <kbd>ctrl + f</kbd>                     | Spawn file manager                                        |
+| <kbd>ctrl + d</kbd>                     | Launch applications launcher                              |
+| <kbd>ctrl + shift + d</kbd>             | Toggle dashboard                                          |
+| <kbd>alt + -</kbd>                      | Toggle control center (actions)                           |
+| <kbd>alt + /</kbd>                      | Screenshot (also <kbd>Print</kbd>)                        |
+| <kbd>ctrl + q</kbd>                     | Close client                                              |
+| <kbd>ctrl + l</kbd>                     | Toggle lock screen                                        |
+| <kbd>ctrl + [1-0]</kbd>                 | View tag AKA change workspace (for you i3/bsp folks)      |
+| <kbd>ctrl + shift + [1-0]</kbd>         | Move focused client to tag                                |
+| <kbd>ctrl + space</kbd>                 | Select next layout                                        |
+| <kbd>ctrl + s</kbd>                     | Set tiling layout                                         |
+| <kbd>ctrl + shift + s</kbd>             | Set floating layout                                       |
+| <kbd>ctrl + alt + c</kbd>               | Center floating client                                    |
+| <kbd>ctrl + shift + [arrow keys]</kbd>  | Change focus by direction                                 |
+| <kbd>ctrl + [arrow keys]</kbd>          | Move floating window                                      |
+| <kbd>alt + [arrow keys]</kbd>           | Resize floating window (→ ↓ grow, ← ↑ shrink)             |
+| <kbd>ctrl + shift + f</kbd>             | Toggle fullscreen                                         |
+| <kbd>ctrl + m</kbd>                     | Toggle maximize                                           |
+| <kbd>ctrl + n</kbd>                     | Minimize                                                  |
+| <kbd>ctrl + alt + n</kbd>               | Restore minimized                                         |
 | <kbd>alt + tab</kbd>                    | Window switcher                                           |
 
 <br>
@@ -163,6 +167,15 @@ also with <kbd>alt, shift, and ctrl</kbd>
 | `right click`      | App drawer                                 |
 | `middle click`     | Toggle Dashboard                           |
 | `scroll up/down`   | Cycle through tags                         |
+
+<br>
+
+**Mouse on windows**
+
+| Mousebind                  | Action                                     |
+|----------------------------|--------------------------------------------|
+| `ctrl + left click drag`   | Move window                                |
+| `ctrl + right click drag`  | Resize window                              |
 
 *... And many many more! for more information check `awesome/configuration/keys.lua`*
 
