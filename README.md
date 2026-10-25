@@ -65,7 +65,7 @@ These dotfiles are made with love, for sure.
       > Execution permissions
 
       ```shell
-      cd Termux-Rxyhn && chmod +x install.sh && chmod +x start-awesome.sh 
+      chmod +x install.sh && chmod +x start-awesome.sh 
       ```
 
       > Install
