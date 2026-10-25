@@ -49,7 +49,7 @@ These dotfiles are made with love, for sure.
    1. Install dependencies 
 
          ```shell
-            pkg install x11-repo && pkg install git curl wget termux-api termux-x11-nightly curl
+            apt update && apt upgrade -y && pkg install x11-repo && pkg install git curl wget termux-api termux-x11-nightly curl
          ```
 
    
@@ -65,7 +65,7 @@ These dotfiles are made with love, for sure.
       > Execution permissions
 
       ```shell
-      chmod +x install.sh && chmod +x start-awesome.sh 
+      chmod +x install.sh && chmod +x start.sh 
       ```
 
       > Install
