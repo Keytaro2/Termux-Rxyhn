@@ -237,17 +237,17 @@ awful.keygrabber({
 	end,
 	export_keybindings = true,
 	stop_event = "release",
-	stop_key = { "Escape", "Super_L", "Super_R", "Mod4" },
+	stop_key = { "Escape", "Control_L", "Control_R", "Control" },
 	keybindings = {
 		{
-			{ modkey, "Shift" },
+			{ ctrl, "Shift" },
 			" ",
 			function()
 				awful.layout.set(gears.table.iterate_value(layout_list.layouts, layout_list.current_layout, -1), nil)
 			end,
 		},
 		{
-			{ modkey },
+			{ ctrl },
 			" ",
 			function()
 				awful.layout.set(gears.table.iterate_value(layout_list.layouts, layout_list.current_layout, 1), nil)
