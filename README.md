@@ -52,37 +52,13 @@ These dotfiles are made with love, for sure.
 
       - **Arch Linux** (and all Arch-based distributions)
 
-            *Assuming your AUR helper is* `yay`
-
-            ```shell
+         ```shell
             yay -Sy awesome-git picom-git alacritty rofi todo-bin acpi acpid \
             wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
             brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
             mpd mpc mpdris2 ncmpcpp playerctl --needed 
-            ```
-
-      + Services
-
-         ```shell
-         # For automatically launching mpd on login
-         systemctl --user enable mpd.service
-         systemctl --user start mpd.service
-
-         # For charger plug/unplug events (if you have a battery)
-         sudo systemctl enable acpid.service
-         sudo systemctl start acpid.service
          ```
 
-   2. Install needed fonts
-
-      You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
-
-      Necessary fonts:
-      + **Iosevka**  - [here](https://github.com/ryanoasis/nerd-fonts/)
-      + **Icomoon**  - [here](https://www.dropbox.com/s/hrkub2yo9iapljz/icomoon.zip?dl=0)
-      + **Material** - [here](https://github.com/google/material-design-icons)
-
-      Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`.
    
    3. Install my AwesomeWM configuration files
 
@@ -107,16 +83,6 @@ These dotfiles are made with love, for sure.
       export TODO_PATH="path/to/todo"
       ```
 
-   4. Configure stuff
-
-      The relevant files are inside your `~/.config/awesome` directory.
-
-      + User preferences and default applications
-
-         In `rc.lua` there is a *Default Applications* section where user preferences and default applications are defined.
-         You should change those to your liking.
-
-         Note: For the weather widgets to work, you will also need to create an account on [openweathermap](https://openweathermap.org), get your key, look for your city ID, and set `openweathermap_key` and `openweathermap_city_id` accordingly.
 
    5. Lastly, log out from your current desktop session and log in into AwesomeWM.
 
