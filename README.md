@@ -125,7 +125,7 @@ These dotfiles are made with love, for sure.
 <details>
 <summary><strong>K E Y B I N D S</strong></summary>
 
-I use <kbd>super</kbd> AKA Windows key as my main modifier.
+I use <kbd>ctrl</kbd> AKA Windows key as my main modifier.
 also with <kbd>alt, shift, and ctrl</kbd>
 
 **Keyboard**
