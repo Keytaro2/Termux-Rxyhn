@@ -48,15 +48,10 @@ These dotfiles are made with love, for sure.
 
    1. Install dependencies and enable services
 
-      + Dependencies
-
       - **Arch Linux** (and all Arch-based distributions)
 
          ```shell
-            yay -Sy awesome-git picom-git alacritty rofi todo-bin acpi acpid \
-            wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
-            brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
-            mpd mpc mpdris2 ncmpcpp playerctl --needed 
+            pkg install x11-repo && pkg install git curl wget termux-api termux-x11-nightly curl
          ```
 
    
