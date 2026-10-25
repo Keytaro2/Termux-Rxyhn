@@ -71,7 +71,7 @@ These dotfiles are made with love, for sure.
       > Install
 
       ```shell
-      sh install.sh &&  ~/./start-awesome.sh 
+      sh install.sh && cd &&  bash start-awesome.sh 
       ```
 
 
