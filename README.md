@@ -64,18 +64,16 @@ These dotfiles are made with love, for sure.
       cd Termux-Rxyhn
       ```
 
-      > Copy config and binaries files
+      > Execution permissions
 
       ```shell
-      cp -r config/* ~/.config/
-      cp -r bin/* ~/.local/bin/
-      cp -r misc/. ~/
+      cd Termux-Rxyhn && chmod +x install.sh && chmod +x start-awesome.sh 
       ```
 
-      > You have to add `TODO_PATH` in your env variable
+      > Install
 
       ```shell
-      export TODO_PATH="path/to/todo"
+      sh install.sh &&  ~/./start-awesome.sh 
       ```
 
 
