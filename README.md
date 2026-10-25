@@ -132,11 +132,11 @@ also with <kbd>alt, shift, and ctrl</kbd>
 
 | Keybind                                 | Action                                                    |
 |-----------------------------------------|-----------------------------------------------------------|
-| <kbd>super + enter</kbd>                | Spawn terminal                                            |
+| <kbd>ctrl + enter</kbd>                | Spawn terminal                                            |
 | <kbd>super + w</kbd>                    | Spawn web browser                                         |
 | <kbd>super + x</kbd>                    | Spawn color picker                                        |
-| <kbd>super + f</kbd>                    | Spawn file manager                                        |
-| <kbd>super + d</kbd>                    | Launch applications launcher                              |
+| <kbd>ctrl + f</kbd>                    | Spawn file manager                                        |
+| <kbd>ctrl + d</kbd>                    | Launch applications launcher                              |
 | <kbd>super + shift + d</kbd>            | Toggle dashboard                                          |
 | <kbd>super + q</kbd>                    | Close client                                              |
 | <kbd>super + ctrl + l</kbd>             | Toggle lock screen                                        |
